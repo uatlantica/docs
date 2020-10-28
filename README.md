@@ -7,6 +7,7 @@ Esta plataforma encontra-se em https://docs.uatlantica.pt/
 
 ### Instalar o Projeto
 Antes de instalar o projeto, garantir que o seguinte está instalado e a funcionar:
+
 	- Python
 	- Git
 	- pip
