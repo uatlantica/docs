@@ -3,13 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-##############################################
+######################################################
 Bem vindo à plataforma de documentação da Atlântica!
-##############################################
+######################################################
 
 Esta plataforma servirá para partilhar documentação das várias plataformas e serviços aos alunos, corpo docente e staff, de forma simplificada e em formato web.
 
-** Endereços Internos **
+**Endereços Internos**
 
 * `Site principal Atlântica`_
 * `Site principal ESSATLA`_
@@ -27,8 +27,16 @@ Esta plataforma servirá para partilhar documentação das várias plataformas e
 .. _Repositório Científico ESSATLA: https://repositorio-cientifico.essatla.pt/
 .. _Secretaria Virtual: https://secretaria-virtual.uatlantica.pt/
 
+**Plataformas Office365**
+
+* `Webmail`_
+* `Microsoft Teams`_
+
+.. _Webmail: https://webmail.uatlantica.pt/
+.. _Microsoft Teams: https://teams.microsoft.com/
+
 .. toctree::
    :maxdepth: 2
-   :caption: Utilização Moodle
+   :caption: Utilização do Moodle
    
-   moodle/utilizacao_generica
+   moodle/login_conta
