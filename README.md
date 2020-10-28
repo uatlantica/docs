@@ -8,9 +8,9 @@ Esta plataforma encontra-se em https://docs.uatlantica.pt/
 ### Instalar o Projeto
 Antes de instalar o projeto, garantir que o seguinte está instalado e a funcionar:
 
-	- Python
-	- Git
-	- pip
+- Python
+- Git
+- pip
 	
 Após as dependências estarem instaladas, clonar o projeto para uma área local do computador.
 
