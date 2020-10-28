@@ -10,6 +10,7 @@ Bem vindo à plataforma de documentação da Atlântica!
 Esta plataforma servirá para partilhar documentação das várias plataformas e serviços aos alunos, corpo docente e staff, de forma simplificada e em formato web.
 
 ** Endereços Internos **
+
 * `Site principal Atlântica`_
 * `Site principal ESSATLA`_
 * `Plataforma Moodle Atlântica`_
