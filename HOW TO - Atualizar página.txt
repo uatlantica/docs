@@ -1,0 +1,6 @@
+Atualizações aos documentos
+
+make html
+git add --all
+git commit -a -m "Descrição"
+git push
