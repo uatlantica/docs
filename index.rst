@@ -42,6 +42,7 @@ A partir desta plataforma pode também imprimir as várias páginas para documen
    :maxdepth: 2
    :caption: Utilização do Moodle
    
+   moodle/intro
    moodle/login_conta
    moodle/utilizacao_alunos
    moodle/utilizacao_docentes
