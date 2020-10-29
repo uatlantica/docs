@@ -25,11 +25,20 @@ make html (Windows)
 
 ### Enviar atualizações
 
-Antes de enviar atualizações para o repositório, construir a versão HTML com "make html"
+Utilizar o Git para enviar alterações.
 
 ```
-make html
 git add --all
 git commit -a -m "Descrição das alterações"
 git push
 ```
+
+### Testar localmente
+
+Para testar localmente basta fazer uma build local utilizando o Sphinx
+
+```
+make html
+```
+
+Será adicionada a pasta _build (ignorada por este reposítorio), com a página em html construída.
