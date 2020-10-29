@@ -4,10 +4,13 @@
    contain the root `toctree` directive.
 
 ######################################################
-Bem vindo à plataforma de documentação da Atlântica!
+Centro de Documentação
 ######################################################
 
-Esta plataforma servirá para partilhar documentação das várias plataformas e serviços aos alunos, corpo docente e staff, de forma simplificada e em formato web.
+Bem vindo ao Centro de Documentação da Atlântica/ESSATLA.
+
+Nesta plataforma encontra documentação centralizada, simplificada e em formato web, relativamente à utilização das várias plataformas e serviços, tanto para alunos como docentes e staff.
+A partir desta plataforma pode também imprimir as várias páginas para documentos PDF, ou até para leitura em formato ebook.
 
 **Endereços Internos**
 
