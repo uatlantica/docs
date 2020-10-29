@@ -17,7 +17,7 @@ Após as dependências estarem instaladas, clonar o projeto para uma área local
 cd Pasta (Pasta local onde guardar o projeto)
 git init
 git remote add origin https://github.com/uatlantica/docs.git
-git pull
+git pull main origin
 ```
 
 Para concluir a configuração, construir o ambiente:
@@ -31,7 +31,7 @@ make html (Windows)
 
 ### Atualizar repositório antes de fazer alterações
 ```
-git pull
+git pull main origin
 ```
 
 ### Enviar atualizações
