@@ -40,3 +40,5 @@ Esta plataforma servirá para partilhar documentação das várias plataformas e
    :caption: Utilização do Moodle
    
    moodle/login_conta
+   moodle/utilizacao_alunos
+   moodle/utilizacao_docentes

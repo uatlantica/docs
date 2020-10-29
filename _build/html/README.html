@@ -90,6 +90,45 @@
 <li class="toctree-l2"><a class="reference internal" href="moodle/login_conta.html#alterar-password">Alterar Password</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="moodle/utilizacao_alunos.html">Utilização para Alunos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_alunos.html#inscricao-em-disciplinas">Inscrição em disciplinas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_alunos.html#acesso-as-disciplinas">Acesso às disciplinas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="moodle/utilizacao_docentes.html">Utilização para Docentes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#acesso-as-disciplinas">Acesso às disciplinas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#modo-de-edicao">Modo de edição</a></li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#preparacao-da-disciplina">Preparação da disciplina</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#ambiente-de-trabalho">Ambiente de trabalho</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#configuracao">Configuração</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="moodle/utilizacao_docentes.html#opcao-configuracao-da-disciplina">Opção Configuração da Disciplina</a></li>
+<li class="toctree-l4"><a class="reference internal" href="moodle/utilizacao_docentes.html#opcao-utilizadores">Opção Utilizadores</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#criar-pastas-e-inserir-ficheiros">Criar pastas e inserir ficheiros</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#atividades-e-recursos">Atividades e recursos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#chat">Chat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#forum">Fórum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#trabalho">Trabalho</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#teste">Teste</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#pauta-de-avaliacao-continua">Pauta de avaliação continua</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#configurar">Configurar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#atribuir-notas">Atribuir notas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="moodle/utilizacao_docentes.html#limpar-disciplinas">Limpar disciplinas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#acesso-ao-menu">Acesso ao menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#limpar-utilizadores-inscritos">Limpar utilizadores inscritos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#limpar-foruns-trabalhos">Limpar fóruns (trabalhos)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="moodle/utilizacao_docentes.html#finalizar">Finalizar</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -155,7 +194,32 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <p>«# docs»</p>
+  <p># Documentação Atlântica ![](<a class="reference external" href="https://readthedocs.org/projects/documentacao-atlantica/badge/?version=latest">https://readthedocs.org/projects/documentacao-atlantica/badge/?version=latest</a>)</p>
+<p>Plataforma de Documentação da Atlântica</p>
+<p>Esta plataforma encontra-se em <a class="reference external" href="https://docs.uatlantica.pt/">https://docs.uatlantica.pt/</a></p>
+<p>### Instalar o Projeto
+Antes de instalar o projeto, garantir que o seguinte está instalado e a funcionar:</p>
+<ul class="simple">
+<li><p>Python</p></li>
+<li><p>Git</p></li>
+<li><p>pip</p></li>
+</ul>
+<p>Após as dependências estarem instaladas, clonar o projeto para uma área local do computador.</p>
+<p>Para concluir a configuração, construir o ambiente:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span>
+<span class="pre">pip</span> <span class="pre">install</span> <span class="pre">sphinx-autobuild</span>
+<span class="pre">make</span> <span class="pre">html</span> <span class="pre">(Windows)</span>
+<span class="pre">./Makefile</span> <span class="pre">html</span> <span class="pre">(Linux/MacOS)</span>
+<span class="pre">`</span></code></p>
+<p>### Enviar atualizações</p>
+<p>Antes de enviar atualizações para o repositório, construir a versão HTML com «make html»</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">make</span> <span class="pre">html</span>
+<span class="pre">git</span> <span class="pre">add</span> <span class="pre">--all</span>
+<span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-a</span> <span class="pre">-m</span> <span class="pre">&quot;Descrição</span> <span class="pre">das</span> <span class="pre">alterações&quot;</span>
+<span class="pre">git</span> <span class="pre">push</span>
+<span class="pre">`</span></code></p>
 
 
            </div>
