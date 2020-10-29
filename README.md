@@ -8,11 +8,17 @@ Esta plataforma encontra-se em https://docs.uatlantica.pt/
 ### Instalar o Projeto
 Antes de instalar o projeto, garantir que o seguinte está instalado e a funcionar:
 
-- Python
-- Git
-- pip
+- Python https://www.python.org/downloads/
+- Git https://git-scm.com/downloads
+- pip https://bootstrap.pypa.io/get-pip.py
 	
-Após as dependências estarem instaladas, clonar o projeto para uma área local do computador.
+Após as dependências estarem instaladas, clonar o projeto para uma área local do computador:
+```
+cd Pasta (Pasta local onde guardar o projeto)
+git init
+git remote add origin https://github.com/uatlantica/docs.git
+git pull
+```
 
 Para concluir a configuração, construir o ambiente:
 
@@ -23,6 +29,11 @@ make html (Windows)
 ./Makefile html (Linux/MacOS)
 ```
 
+### Atualizar repositório antes de fazer alterações
+```
+git pull
+```
+
 ### Enviar atualizações
 
 Utilizar o Git para enviar alterações.
@@ -30,7 +41,7 @@ Utilizar o Git para enviar alterações.
 ```
 git add --all
 git commit -a -m "Descrição das alterações"
-git push
+git push origin main
 ```
 
 ### Testar localmente

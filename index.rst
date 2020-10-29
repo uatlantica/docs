@@ -9,7 +9,8 @@ Centro de Documentação
 
 Bem vindo ao Centro de Documentação da Atlântica/ESSATLA.
 
-Nesta plataforma encontra documentação centralizada, simplificada e em formato web, relativamente à utilização das várias plataformas e serviços, tanto para alunos como docentes e staff.
+Nesta plataforma encontra documentação centralizada, simplificada e em formato web relativamente à utilização das várias plataformas e serviços, tanto para alunos como docentes e staff.
+
 A partir desta plataforma pode também imprimir as várias páginas para documentos PDF, ou até para leitura em formato ebook.
 
 **Endereços Internos**

@@ -30,6 +30,7 @@ Insira as credenciais de acesso fornecidas pela Secretaria *(Recebida após a ma
 	:align: center
 
 Após o primeiro login, serão pedidas algumas informações obrigatórias. Pode também adicionar uma fotografia de perfil.
+
 Preencher os campos necessários e para efetuar as alterações carregar no botão "Atualizar Perfil".
 
 .. note::
