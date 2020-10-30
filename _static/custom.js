@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$('a').attr('target', '_blank');
+	
 	$('.fa-github').text(' Contribuir no GitHub');
 
 	var searchInput = document.getElementsByName('q');
