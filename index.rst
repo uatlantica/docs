@@ -40,10 +40,40 @@ A partir desta plataforma pode também imprimir as várias páginas para documen
 .. _Microsoft Teams: https://teams.microsoft.com/
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Utilização do Moodle
-   
-   moodle/intro
-   moodle/login_conta
-   moodle/utilizacao_alunos
-   moodle/utilizacao_docentes
+	:maxdepth: 2
+	:caption: Início
+	
+	inicio/intro.rst
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Moodle
+
+	moodle/intro
+	moodle/login_conta
+	moodle/utilizacao_alunos
+	moodle/utilizacao_docentes
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Microsoft Teams (Aulas Online)
+	
+	teams/intro.rst
+	teams/acesso.rst
+	teams/utilizacao_alunos.rst
+	teams/utilizacao_docentes.rst
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Microsoft 365 (Office)
+	
+	microsoft365/intro.rst
+	microsoft365/instalacao.rst
+	microsoft365/configuracao_mail.rst
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Rede Wireless
+	
+	wireless/intro.rst
+	wireless/ligar.rst
