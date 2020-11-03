@@ -17,7 +17,7 @@ Após as dependências estarem instaladas, clonar o projeto para uma área local
 cd Pasta (Pasta local onde guardar o projeto)
 git init
 git remote add origin https://github.com/uatlantica/docs.git
-git pull main origin
+git pull origin main
 ```
 
 Para concluir a configuração, construir o ambiente:
