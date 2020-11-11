@@ -31,7 +31,7 @@ make html (Windows)
 
 ### Atualizar repositório antes de fazer alterações
 ```
-git pull main origin
+git pull origin main
 ```
 
 ### Enviar atualizações
